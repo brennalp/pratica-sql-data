@@ -1,5 +1,9 @@
 -- qual a categoria de produtos mais vendidos
--- olhar para a tabela de transacoes e buscar a informação da tabela produto
+-- olhar para a tabela de transacoes e buscar a informação da tabela 
+--achar o correspondente dos dados da esquerda na tabela da direita
+-- faz a associação entre cada tipo de dado pelo formato
+-- os que não derem match serão null
+-- inner join -> retorna apenas o que for entre os dois
 
 SELECT 
         t2.DescCategoriaProduto,
