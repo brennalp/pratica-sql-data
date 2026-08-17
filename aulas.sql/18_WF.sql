@@ -1,0 +1,1 @@
+-- WF com row number para ranking
