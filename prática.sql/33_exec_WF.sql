@@ -34,4 +34,5 @@ FROM tb_dia_semana_ativo
 GROUP BY diaSemana
 ORDER BY volumeTransacoes DESC
 
-LIMIT 3
+LIMIT 3;
+
