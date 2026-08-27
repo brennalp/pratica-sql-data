@@ -1,4 +1,5 @@
 -- .tables : mostra as tabelas salvas/criadas
+-- alterando o banco de dados com insert into, create table, drop table, delete, truncate, update
 
 DROP TABLE IF EXISTS relatorio_diario; --apaga quando existir para poder atualizar 
 

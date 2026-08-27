@@ -1,4 +1,4 @@
-DELETE FROM relatorio_diario; --deletando os dados
+DELETE FROM relatorio_diario; --deletando os dados, pode deletar registros específicos com base em filtro (group by)
 
 WITH tb_qtd_cliente AS (
     SELECT substr(DtCriacao, 1, 10) AS dtDia,
